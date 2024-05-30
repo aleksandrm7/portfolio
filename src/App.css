@@ -1,0 +1,19 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: url('path_to_background_image.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100vw; /* Make sure the App container takes full viewport width */
+}
+
+section {
+  flex: 1;
+  width: 100vw; /* Make sure each section takes full viewport width */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

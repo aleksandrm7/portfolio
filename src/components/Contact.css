@@ -1,0 +1,25 @@
+.contact {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2d30; /* Beige */
+    width: 100vw; /* Ensure full width */
+    box-sizing: border-box;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adds spacing between icons */
+}
+
+.contact-icons a {
+    margin: 0 10px;
+}
+
+.contact-icons img {
+    width: 50px;
+    height: 50px;
+}

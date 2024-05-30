@@ -1,0 +1,50 @@
+.projects {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1f2023; /* Dark background */
+    width: 100vw; /* Ensure full width */
+    box-sizing: border-box;
+}
+
+.projects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adds spacing between projects */
+}
+
+.project {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #1f2023;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.project-icon {
+    margin-bottom: 10px; /* Adds spacing between icon and text */
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #646cff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.project a:hover {
+    background-color: #535bf2;
+    color: white; /* Ensure text color stays white */
+}
